@@ -16,27 +16,33 @@
   </head>
   <body>
     <!--Шапка сайта-->
-    <header class="page-header">
-      <div class="container">
-        <nav>
+    <header>
+      <div class="container main-box">
+        <nav class="nav-box">
           <a href="#" class="logo"
             >Web<span class="logo-accent"> Studio</span></a
           >
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="#" class="link">Контакты</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="#" class="link">Контакты</a></li>
           </ul>
         </nav>
         <address class="site-address">
           <a href="#" class="link"
             ><img
+              class="img"
               src="./images/email.svg"
               alt="Картинка конверта"
             />info@devstudio.com</a
           >
           <a href="#" class="link"
             ><img
+              class="img"
               src="./images/phone.svg"
               alt="Картинка мобильного телефона"
             />+38 096 111 11 11</a
@@ -56,7 +62,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">
-            достоинство и преимущество нашей компании
+            Достоинство и преимущество нашей компании
           </h2>
           <ul class="dignity list">
             <li>
@@ -110,6 +116,7 @@
             <li>
               <a href="#"
                 ><img
+                  class="no-clearance"
                   src="./images/dextop.jpg"
                   width="380"
                   height="294"
@@ -120,6 +127,7 @@
             <li>
               <a href="#"
                 ><img
+                  class="no-clearance"
                   src="./images/mobil.jpg"
                   width="380"
                   height="294"
@@ -130,6 +138,7 @@
             <li>
               <a href="#"
                 ><img
+                  class="no-clearance"
                   src="./images/pc.jpg"
                   width="380"
                   height="294"
@@ -147,6 +156,7 @@
           <ul class="list">
             <li>
               <img
+                class="img-team no-clearance"
                 src="./images/foto-John-Smith.jpg"
                 width="278"
                 height="260"
@@ -179,6 +189,7 @@
             </li>
             <li>
               <img
+                class="img-team no-clearance"
                 src="./images/foto-Marta-Stewart.jpg"
                 width="278"
                 height="260"
@@ -211,6 +222,7 @@
             </li>
             <li>
               <img
+                class="img-team no-clearance"
                 src="./images/foto-Robert-Jakis.jpg"
                 width="278"
                 height="260"
@@ -243,6 +255,7 @@
             </li>
             <li>
               <img
+                class="img-team no-clearance"
                 src="./images/foto-Martin-Doe.jpg"
                 width="278"
                 height="260"
@@ -329,9 +342,9 @@
     </main>
 
     <!--Подвал-->
-    <footer class="footer"
+    <footer class="footer">
       <div class="container">
-        <div>
+        <div class="info">
           <a href="#" class="logo"
             >Web<span class="footer-accent"> Studio</span></a
           >
@@ -353,12 +366,7 @@
               >
             </li>
             <li>
-              <a
-                href="#"
-                aria-label="Ссылка на Twitter"
-                class="section-icon pic"
-                >Twitter</a
-              >
+              <a href="#" aria-label="Ссылка на Twitter" class="pic">Twitter</a>
             </li>
             <li>
               <a href="#" aria-label="Ссылка на facebook" class="pic"
@@ -377,7 +385,7 @@
           <a href="#" class="button">Подписаться</a>
         </div>
 
-        <p>2020 | Developed by GoIT Students</p>
+        <p class="copyright">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
   </body>
