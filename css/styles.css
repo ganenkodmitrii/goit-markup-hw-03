@@ -48,7 +48,7 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* header */
@@ -325,7 +325,8 @@ body {
   margin-bottom: 24px;
   justify-content: space-around;
 
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato;
+   */
 }
 
 .userpic {
@@ -347,7 +348,7 @@ body {
 .company-box .icons {
   width: 175px;
   height: 90px;
-  outline: 1px solid rosybrown;
+  /* outline: 1px solid rosybrown; */
 }
 
 .company-box .icons:not(:first-child) {
@@ -391,7 +392,7 @@ body {
 
 .work-box .item {
   width: calc((100% - 60px) / 3);
-  outline: 2px solid aquamarine;
+  /* outline: 2px solid aquamarine; */
 }
 
 .work-box .item:not(:nth-child(3n)) {
