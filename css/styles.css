@@ -456,7 +456,8 @@ body {
 .footer-box {
   display: flex;
   justify-content: space-between;
-  padding-top: 56px;
+  align-items: baseline;
+  padding-top: 48px;
   padding-bottom: 28px;
 }
 /* 
