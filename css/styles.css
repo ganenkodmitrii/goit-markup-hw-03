@@ -283,11 +283,12 @@ body {
 }
 
 .team-box .item {
+  width: calc((100% -90px) / 4);
   text-align: center;
   background-color: var(--primary-white-color);
 }
-.team-box .item:not(:first-child) {
-  margin-left: 30px;
+.team-box .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .img-team {
@@ -317,11 +318,11 @@ body {
 /* Иконки соц.сетей */
 .socials {
   display: flex;
-  padding: 12px;
+  /* padding: 12px;
   margin-left: 35px;
-  margin-right: 36px;
+  margin-right: 36px; */
   margin-bottom: 24px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   outline: 2px solid tomato;
 }
@@ -338,12 +339,11 @@ body {
 /* Список клиентов */
 .company-box {
   display: flex;
-
-  /* width: 1200px; */
 }
 
 .company-box .icons {
-  width: 175px;
+  /* width: 175px; */
+  width: calc((100% - (30px * 5)) / 6);
   height: 90px;
   outline: 1px solid rosybrown;
 }
