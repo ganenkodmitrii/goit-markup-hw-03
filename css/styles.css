@@ -461,18 +461,21 @@ body {
   padding-top: 48px;
   padding-bottom: 28px;
 }
-/* 
-.info .logo {
-  outline: 1px solid blue;
-} */
 
-.footer-accent {
+.info-box > .logo {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 10px;
+
+  outline: 1px solid blue;
+}
+
+.info-box .accent {
   color: var(--primary-white-color);
 }
 
 .address {
-  display: block;
-  margin-top: 10px;
+  margin-bottom: 9px;
 
   color: var(--primary-white-color);
   font-style: normal;
@@ -481,9 +484,13 @@ body {
   line-height: 1.71;
   /* background-color: violet; */
 }
+
+.contact .mail {
+  margin-bottom: 9px;
+}
+
 .contact .link {
   display: block;
-  padding-top: 9px;
 
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -493,10 +500,10 @@ body {
   text-decoration: none;
 }
 
-.join-box {
+/* .join-box {
   outline: 1px solid blue;
   width: 207px;
-}
+} */
 
 .social {
   display: flex;
@@ -508,7 +515,7 @@ body {
 } */
 
 .subscribe {
-  display: inline-block;
+  display: block;
   margin-bottom: 21px;
   color: var(--primary-white-color);
   font-weight: 700;
