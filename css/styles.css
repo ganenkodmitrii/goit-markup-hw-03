@@ -51,6 +51,17 @@ body {
   /* outline: 2px solid tomato; */
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* для img */
 /* img {
   display: block;
@@ -376,11 +387,6 @@ body {
 }
 
 /* portofolio main */
-.title-breadcrumbs {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .breadcrumbs {
   display: flex;
   justify-content: center;
